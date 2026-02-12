@@ -17,3 +17,9 @@ function increaseCount() {
     displayCount(); // Mostrar el count
     checkCountValue(); // Verificar el valor del count y mostrar mensajes
   }
+
+  function restablecer_cuenta() {
+    count = 0; // Reiniciamos el valor lógico
+    document.getElementById('countDisplay').innerText = count;
+    alert("El conteo de seguidores ha sido restablecido");
+}
